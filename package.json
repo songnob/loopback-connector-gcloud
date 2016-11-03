@@ -1,6 +1,6 @@
 {
     "name": "loopback-connector-gcloud",
-    "version": "0.3.12",
+    "version": "0.3.13",
     "description": "A Strongloop/Loopback connector for the Google Cloud Datastore database.",
     "main": "index.js",
     "scripts": {
@@ -37,7 +37,7 @@
     "dependencies": {
         "assert": "*",
         "debug": "*",
-        "gcloud": "*",
+        "google-cloud": "0.43.0",
         "lodash": "*",
         "loopback-connector": "*",
         "loopback-datasource-juggler": "*"
